@@ -1,0 +1,10 @@
+[package]
+name = "combo_trading"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+ftx_us_derivs={path = "../ftx_us_derivs"}
+binance="0.19.0"
+ctrlc="3.2.3"
+chrono="0.4.22"
